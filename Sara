@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Siga Laura Silvar no Instagram e acompanhe suas novidades!">
+  <title>Laura Silvar - Instagram</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .btn-instagram {
+      padding: 15px 30px;
+      background-color: #ff0066;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      transition: background 0.3s;
+    }
+    .btn-instagram:hover {
+      background-color: #e6005c;
+    }
+  </style>
+</head>
+<body>
+  <a 
+    class="btn-instagram" 
+    href="https://www.instagram.com/laura_silvar15?igsh=MXQwbzRndnNzbDEwcw==" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    aria-label="Siga Laura Silvar no Instagram">
+    Me siga no Instagram
+  </a>
+</body>
+</html>
